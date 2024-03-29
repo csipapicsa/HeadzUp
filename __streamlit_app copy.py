@@ -58,7 +58,7 @@ def main_page():
             st.session_state.placeholder_info = st.empty()
             st.session_state.page = "game"
             
-            # st.rerun()
+            st.rerun()
 
 
 def game():
